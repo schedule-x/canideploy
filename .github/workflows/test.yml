@@ -1,0 +1,14 @@
+name: Test
+on: workflow_dispatch
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ✅
+        uses: actions/checkout@v4
+      - name: Can I deploy?
+        uses: ./
+        with:
+          timezone: 'Europe/Berlin'
