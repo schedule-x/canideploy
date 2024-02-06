@@ -4,7 +4,7 @@ inputs:
   timezone:  # id of input
     description: 'Timezone to use'
     required: false
-    default: 'World'
+    default: 'Etc/UTC'
 runs:
   using: 'node20'
   main: 'index.js'
