@@ -19,7 +19,7 @@ jobs:
       - name: Checkout ✅
         uses: actions/checkout@v4
       - name: Can I deploy?
-        uses: schedule-x/canideploy@v0.3
+        uses: schedule-x/canideploy@v1.0
         with:
           timezone: 'Europe/Berlin'
       # ... your build steps
