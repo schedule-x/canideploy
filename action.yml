@@ -1,0 +1,10 @@
+name: 'Can I deploy?'
+description: 'An action to prevent deployments on Fridays'
+inputs:
+  timezone:  # id of input
+    description: 'Timezone to use'
+    required: false
+    default: 'World'
+runs:
+  using: 'node20'
+  main: 'index.js'
