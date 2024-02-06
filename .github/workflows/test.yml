@@ -11,4 +11,4 @@ jobs:
       - name: Can I deploy?
         uses: schedule-x/canideploy@v0.3
         with:
-          timezone: 'Europe/Berlin'
+          timezone: 'Pacific/Auckland'
