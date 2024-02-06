@@ -52,7 +52,9 @@ try {
     if (day === 5) {
         core.setFailed('It is Friday! You should not be shipping 🚢 into production');
     } else {
-        core.setOutput('message', `It is ${daysMap.get(day)}! You can ship into production 🎉`);
+        let successMsg = `It is ${daysMap.get(day)}! You can ship into production 🎉`;
+        core.info(successMsg);
+        core.notice(successMsg);
     }
 } catch (error) {
     core.setFailed(error.message);
