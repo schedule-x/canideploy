@@ -9,6 +9,6 @@ jobs:
       - name: Checkout ✅
         uses: actions/checkout@v4
       - name: Can I deploy?
-        uses: ./
+        uses: schedule-x/canideploy@v0.2
         with:
           timezone: 'Europe/Berlin'
