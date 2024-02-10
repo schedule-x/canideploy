@@ -3,7 +3,7 @@ on: workflow_dispatch
 
 jobs:
   test:
-    name: Test
+    name: Production build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout ✅
