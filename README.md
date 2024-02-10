@@ -2,7 +2,7 @@
 
 A GitHub-action for failing production builds on Fridays.
 
-![Example of a failing build](https://schedule-x.s3.eu-west-1.amazonaws.com/canideploy-fail.png)
+![Example of a failing build](https://schedule-x.s3.eu-west-1.amazonaws.com/canideploy-failed-pipeline.png)
 
 ## Usage
 
